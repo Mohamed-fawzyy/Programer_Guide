@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Home Page</title>
+</head>
+
+	<style>
+	
+		body{
+         background-image: url("imgs/trio.jpg");
+        }
+        
+  .button {
+  
+  padding: 15px 25px;
+  font-family:Lucida Console;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  color: #fff;
+  background-color:#ffcccc;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin: 50px;
+}
+
+.button:hover {background-color:#666666}
+
+.button:active {
+    background-color:#ffcccc;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+	
+	</style>
+
+<body>
+	
+        <h1>Choose Your Courses:</h1>
+        <br> <br> 
+    <a href="" class="button">PYTHON</a>
+		<a href="chooseLevelHtml.php" class="button">HTML</a>
+		<a href="chooseLevelCss.php" class="button">CSS</a>
+    
+ 	
+	<form action="LogIn.php" method="POST">
+		<input type="submit" value="log out" class="button" style="position:relative;
+		left: 90%;
+		margin-top:38%;">
+		</form>
+	
+</body>
+</html>

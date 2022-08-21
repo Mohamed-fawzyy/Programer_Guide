@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+    <style>
+h2
+{
+font-size: 40px;
+}
+body{
+
+    background-image: url("imgs/kata-squidward.jpg");
+    background-size: cover;
+    height: 100%vh;
+}
+
+.button {
+  
+  padding: 15px 25px;
+  font-family:Lucida Console;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  color: #fff;
+  background-color:#ffcccc;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin: 50px;
+}
+
+.button:hover {background-color:#666666}
+
+.button:active {
+    background-color:#ffcccc;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+</style>
+        <title>Advanced HTML course</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    
+    <script>
+        
+        function opene()
+            {
+		document.getElementById("t").innerHTML =("<p style='background-color: white;'> HTML class Attribute"
+       
++"HTML class attribute specifies one or more class names for an element"
++"Classes are used by CSS and JavaScript to select and access specific element"
++"The class attribute can be used on any HTML element"
++"The class name is case sensitive"
++"Different HTML elements can point to the same class name"
++"JavaScript can access elements with a specific class name with the getElementsByClassName() method"
++"HTML id Attribute"
++"The id attribute is used to specify a unique id for an HTML element"
++"The value of the id attribute must be unique within the HTML document"
++"The id attribute is used by CSS and JavaScript to style/select a specific element"
++"The value of the id attribute is case sensitive"
++"The id attribute is also used to create HTML bookmarks"
+
+
++"CHECKBOX and ComboBox"
++"Checkbox:The input type=checkbox defines a checkbox"
++"The checkbox is shown as a square box that is ticked (checked) when activated."
++"Checkboxes are used to let a user select one or more options of a limited number of choices."
++"Tip: Always add the label tag for best accessibility practices!"
++"Combobox:The select element is used to create a drop-down list."
++"The select element is most often used in a form, to collect user input."
++"The name attribute is needed to reference the form data after the form is submitted (if you omit the name attribute, no data from the drop-down list will be submitted)."
++"The id attribute is needed to associate the drop-down list with a label."
++"The option tags inside the select element define the available options in the drop-down list.</p>"
+)
+ }      
+    </script>
+    
+    <body>
+        <h2>Advanced HTML course </h2>
+        <p id="t"> 
+		<button onclick="opene();"> view explanation</button>
+		<button> <a href="advancedHTML.php"> take quiz</a></button>
+
+        <form action="homePage.html" method="POST">
+            <input type="submit" value="back to home" class="button">
+        </form>
+
+    </body>
+</html>

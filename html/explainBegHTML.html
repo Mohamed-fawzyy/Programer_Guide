@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Beginner HTML course</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <style>
+h2
+{
+font-size: 40px;
+}
+body{
+
+    background-image: url("imgs/kata-squidward.jpg");
+    background-size: cover;
+    height: 100%vh;
+}
+.button {
+  
+  padding: 15px 25px;
+  font-family:Lucida Console;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  color: #fff;
+  background-color:#ffcccc;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin: 50px;
+}
+
+.button:hover {background-color:#666666}
+
+.button:active {
+    background-color:#ffcccc;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+</style>
+    
+    <script>
+        
+        function opene()
+            {
+		        document.getElementById("t").innerHTML =("<p style='background-color: white;'>What is HTML ?•HTML is the standard markup language for creating Web pages• HTML describes the structure of a Web page• HTML consists of a series of elements• HTML elements tell the browser how to display the content• HTML elements label pieces of content such as this is a heading,this is a paragraph , this is a link, etc• The !DOCTYPE html declaration defines that this document is an HTML5 document• The html element is the root element of an HTML page• The head element contains meta information about the HTML page• The title element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab)• The body element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.• The h1 element defines a large heading• The p element defines a paragraphWhat is an HTML Element?• An HTML element is defined by a start tag, some content, and an end tag:• tagname Content goes here...• The HTML element is everything from the start tag to the end tag:• h1 My First Heading• p My first paragraph.Web BrowsersThe purpose of a web browser (Chrome, Edge, Firefox, Safari) is to read HTML documents and display them correctlyHTML is Not Case Sensitive and HTML tags are not case sensitiv </p>");
+
+            }      
+    </script>
+    
+    <body>
+        <h2>Beginner HTML course </h2>
+        <p id="t"> 
+		<button onclick="opene();"> view explanation</button>
+		<button> <a href="beginnerHTML.php"> take quiz</a></button>
+
+        <form action="homePage.html" method="POST">
+            <input type="submit" value="back to home" class="button">
+        </form>
+
+    </body>
+
+
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Intermediate HTML course</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+            <style>
+h2
+{
+font-size: 40px;
+}
+body{
+
+    background-image: url("imgs/kata-squidward.jpg");
+    background-size: cover;
+    height: 100%vh;
+}
+.button {
+  
+  padding: 15px 25px;
+  font-family:Lucida Console;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  color: #fff;
+  background-color:#ffcccc;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin: 50px;
+}
+
+.button:hover {background-color:#666666}
+
+.button:active {
+    background-color:#ffcccc;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+</style>
+    <script>
+        
+        function opene()
+            {
+				document.getElementById("t").innerHTML =("<p style='background-color: white;'> HTML Attributes All HTML elements can have attributes Attributes are always specified in the start tag • Attributes usually come in name/value pairs like name valueimg specifies the path to the image to be displayed The width and height attributes of img provide size information for images The alt attribute of img provides an alternate text for an image The style attribute is used to add styles to an element, such as color, font, size, and more The lang attribute of the html tag declares the language of the Web page The title attribute defines some extra information about an element Define an HTML Table The table tag defines an HTML table. Each table row is defined with a tr tag. Each table header is defined with a th tag. Each table data/cell is defined with a td tag. By default, the text in th elements are bold and centered By default, the text in td elements are regular and left-aligned HTML Block and Inline Elements There are two display values: block and inline A block-level element always starts on a new line and takes up the full width available An inline element does not start on a new line and it only takes up as much width as necessary The div element is a block-level and is often used as a container for other HTML elements The span element is an inline container used to mark up a part of a text, or a part of a document</p>");
+				
+            }      
+    </script>
+    
+    <body>
+        <h2>Intermediate HTML course </h2>
+        <p id="t"> 
+		<button onclick="opene();"> view explanation</button>
+		<button> <a href="InterHTML.php"> take quiz</a></button>
+
+        <form action="homePage.html" method="POST">
+            <input type="submit" value="back to home" class="button">
+            </form>
+
+    </body>
+</html>
